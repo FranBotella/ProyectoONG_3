@@ -1,0 +1,1361 @@
+
+
+$color1:rgb(201,93,183);
+$color2:rgb(125,20,107);
+$colorTransicion:lightsalmon;
+$color3:#F7F7F7;
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#mensajeDonar{
+    margin-top: 1%;
+    text-align: center;
+    color: red;
+}
+
+
+// #contenedor_carga{
+//     position: relative;
+  
+//     margin-left: 50%;
+//     #carga{
+//         width: 100px;
+//         height: 100px;
+//         border:solid 5px #064555;
+//         border-top: solid 5px #7cd6ec;
+//         border-radius: 50%;
+//         animation:loader .8s linear infinite;
+//     }
+//     @keyframes loader{
+//         0% {
+//             transform: rotate(0deg);
+//         }
+//         100%{
+//             transform:rotate(360deg);
+//         }
+//     }
+   
+// }
+// .menu{
+//     background-color:$color1 ;
+
+//     box-shadow: 2px 2px 5px rgba(8, 8, 8, 0.767); /*Sombreado*/
+//     a{
+//         color: white;
+//     /* font-family: Verdana, Geneva, Tahoma, sans-serif; */
+//     text-decoration: none;
+//     font-family: 'Barlow',bold;
+//     font-size:xx-large;
+//     &:hover{
+//         color:$colorTransicion;
+//     transition: all .3s;
+//     }
+//     }
+  
+// }
+
+// .navbar-toggler{
+//     margin-right: 25%;
+// }
+// #politica_privi{
+//     color: white;
+//     text-align:justify;
+    
+//     h2,h1{
+//         text-align: center;
+//     }
+// }
+// #imgTXT{
+//     background-color: #F0F0ED;
+//     text-align: center;
+//   width: 100%;
+
+//  /* height: 100%; */
+// }
+
+// #imgInfo{
+//     height: 500px;
+//     width: 400px;
+//     margin-top: 5%;
+//     margin-bottom: 5%;
+
+// }
+// #textoFooter{
+//     text-align: center;
+// }
+// #txtInfo{
+//     background-color: white;
+//     margin: 2%;
+//     font-family: 'Barlow', sans-serif;
+// //   font-size:11px;
+// font-size: xx-large;
+// overflow: hidden;
+// text-align:left;
+// padding: 2%;
+
+// }
+// #D{
+//     font-family: 'Barlow', sans-serif;
+//     height: 98%;
+  
+// }
+
+strong{
+    color: black;
+}
+#informacionTXT{
+    text-align: justify;
+}
+.form-control{
+    text-align: center;
+
+}
+#formuRegistro{
+    // background-color: white;
+    background-color: #F2F2F2;
+    border: #232323;
+    border-radius: 1%;
+    /* width: 500px;
+    height: 550px; */
+    font-size:x-large;
+//    height:700px;
+   color:$color1;
+   font-family:"Overpass", Arial, sans-serif;
+   padding-left: 10%;
+   padding-right: 10%;
+   input{
+    // border: 2px solid black;
+    border: 0;
+    border-radius: 25px;
+    box-shadow: 0 0 20px black; 
+   }
+}
+.inputnewsletter {
+    text-align: center;
+}
+#insertarForm{
+    // color: white;
+    font-family:"Overpass", Arial, sans-serif;
+    div{
+       p{
+  
+        input{
+            border: 0;
+            border-radius: 25px;
+            box-shadow: 0 0 20px black;
+            text-align: center;
+           
+        }
+        textarea{
+            border: 0;
+            border-radius: 10px;
+            box-shadow: 0 0 20px black;  
+            text-align: center;
+        }
+    }
+    }
+    
+}
+#datepicker2{
+    border: 0;
+    border-radius: 25px;
+    box-shadow: 0 0 20px black;
+}
+#datepicker{
+    border: 0;
+    border-radius: 25px;
+    box-shadow: 0 0 20px black;
+}
+#eliminarForm{
+    div{
+        p{
+   
+         input{
+            text-align: center;
+             border: 0;
+             border-radius: 25px;
+             box-shadow: 0 0 20px black;
+            
+         }
+         textarea{
+            text-align: center;
+             border: 0;
+             border-radius: 25px;
+             box-shadow: 0 0 20px black;  
+         }
+     }
+     }
+}
+#formSuscribirse{
+   
+    p{
+        input{
+            border: 0;
+            border-radius: 25px;
+            box-shadow: 0 0 20px black;
+        }
+    }
+}
+#BTNregistro{
+    display: flex;
+    justify-content: center;
+}
+#BTN-BTNregistro{
+    font-family:"Overpass", Arial, sans-serif;
+    width: 200px;
+    height: 70px;
+    background-color: $color2;
+    color: WHITE;
+    padding: 1%;
+    border: 0;
+    border-radius: 25px;
+    box-shadow: 0 0 20px black;
+}
+#BTN-BTNregistro2{
+    font-family:"Overpass", Arial, sans-serif;
+    width: 200px;
+    height: 70px;
+    background-color: $color1;
+    color: WHITE;
+    padding: 1%;
+    border: 0;
+    border-radius: 25px;
+    box-shadow: 0 0 20px black;
+}
+// .h1Inicio {
+// 	color: rgba(200, 119, 119, 1);
+// }
+// #body{
+//     background-color:$color2 ;
+
+// }
+#logo{
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+}
+// #carrito{
+//     width: 50px;
+//     height: 50px;
+// }
+// #imgCarruselInicio{
+//     // width:500px;
+//     //         height: 500px;
+// }
+// #imgCarruselDonaciones{
+//     width:500px;
+//   height: 600px; 
+// }
+// #socialMedia{
+//     width: 45px;
+//     height: 45px;
+//    margin-top: 5%;
+ 
+// }
+// .prueba{
+//     display: flex;
+//     justify-content: center;
+// }
+// .tablaP {
+// 	color:rgba(200, 119, 119, 1);
+// 	font-size: 20px;
+//     &:hover{
+//         color: rgba(72, 32, 32, 1);
+//     transition: all .3s;
+//     }
+// }
+// .pie {
+// 	background-color: #232323;
+// 	color: white;
+// 	box-shadow: 2px 2px 5px rgba(8, 8, 8, 0.767); 	
+// font-size: xx-large;
+ 
+
+// }
+// #tituloInicio{
+//     text-align: center;
+//     color: white;
+// }
+// #demo{
+//     // height: 30%;
+//     // width: 100%;
+//       height: 3%;
+//             width: 60%;
+//             margin-left: 23%;
+//             margin-top: -5%;
+// }
+
+// #espacio{
+//     // height: 99%;
+// //     font-family: 'Barlow', sans-serif;
+// //    overflow:scroll;
+// }
+
+// #demo2{
+//     // height: 40%;
+//     // height: 10%;
+//       width: 50%;
+//             margin-left: 23%;
+          
+// }
+// .borde {
+//     border: 2px solid rgba(58, 56, 56, 0.918);
+// }
+#cerrarSesion {
+    padding: 0.5%;
+    border: 0;
+    border-radius: 25px;
+    box-shadow: 0 0 20px black;
+}
+li{
+    list-style: none;
+}
+#perfilForm{
+margin-top: 5%;
+    background-color: white;
+    // border: black 2px solid;
+    font-size:x-large;
+    height: 856px;
+    font-family:"Overpass", Arial, sans-serif;
+    color: $color2;
+    border-radius: 2%;
+    input{
+        background-color: $color2;
+    color: white;
+    }
+    .box img {
+        // width: 300px;
+        height: 120px;
+        margin-top: 5px;
+        border-radius: 150px;
+        -o-object-fit: cover;
+           object-fit: cover;
+      }
+}
+#ConfirmacionCarrito{
+    margin-left: 31%;
+    font-size:medium;
+    margin-top: 2%;
+}
+label, input {
+    margin-top: 5px;
+    margin-bottom: 5px;
+  }
+  .box img {
+    // width: 200px;
+    // height: 200px;
+    margin-top: 5px;
+    border-radius: 150px;
+    -o-object-fit: cover;
+       object-fit: cover;
+  }
+//   #donaciones {
+//     display: flex;
+//     flex-direction: column;
+//     background-color:$color1 ;
+//     border: #232323 0px solid;
+ 
+//     div{
+//         background-color: white;
+//   margin-right: 2%;
+//     height: 70%;
+//    margin-bottom: 1%;
+//     font-size: 30px;
+//     }
+//  } 
+
+//  #precioDI{
+//     width: 100%;
+   
+// }
+// #otraCantidad{
+//     margin-top: 1%;
+//     box-shadow: 0 0 20px black;
+
+// }
+// #botonCookies{
+//     margin-left: 41%;
+//     background-color: white;
+//     color: black;
+// }
+
+ #modal::backdrop{
+    background-color: rgba(0,0,0,.55);
+ }
+ #modal{
+    max-width: 50ch;
+display: none;
+ }
+ #modal2{
+    max-width: 50ch;
+display:block;
+margin-left: 0%;
+ }
+ #formModal label{
+    border: 1px solid;
+    padding: 5px;
+    width: 100%;
+    text-align: center;
+    background-color: white;
+}
+#formModal{
+    background-color: #c1c1c1;
+    
+  
+}
+#btnPSW{
+    padding-left: 5%;
+}
+#ojo{
+    width: 50px;
+    height: 50px;
+   
+}
+#ojo2{
+    width: 50px;
+    height: 50px;
+}
+#btn-cerrar-modal{
+margin-left: 35%;
+}
+#suscribirse{
+    margin-top: 5%;
+    height: 100%;
+  font-size:x-large;
+  font-family:"Overpass", Arial, sans-serif;
+    p{
+        color: black;
+        text-align: center;
+    }
+    h1{
+        text-align: center;
+        margin-left: 0%;
+    }
+    form{
+        background-color: white;
+        // width: 30%;
+        // margin-left: 35%;
+        // height: 60%;
+            label{
+                margin-right: 1%;
+            }
+    }
+    .inputnewsletter{
+        // width: 120%;
+    }
+}
+
+
+
+// #divCausa{
+//     margin-top: 1%;
+//     box-shadow: 0 0 20px black;
+// }
+#desuscribirseTXT{
+    font-size: x-large;
+    font-family: "Overpass", Arial, sans-serif;
+}
+#btn-desuscribirse{
+    background-color: red;
+    color: white;
+    margin-left: 5%;
+    font-size: x-large; 
+    margin-bottom: 1%;
+    padding: 1%;
+}
+#inputnewsletter{
+    // margin-left: -4%;
+}
+#btn-suscribirse{
+    // background-color: red;
+    // color: white;
+    // margin-left: 5%;
+    // font-size: x-large; 
+    // margin-bottom: 1%;
+    // padding: 1%;
+}
+#BTN-BTNContinuar{
+    // background-color: red;
+    // color: white;
+    
+    //  margin-left: 42%;
+    //  margin-top: 1%;
+    //  margin-bottom: 1%;
+    //  padding: 2%;
+    // font-size: xx-large;
+}
+
+// #titleD{
+//     // margin-left: 35%;  
+//     font-size: xx-large;
+   
+// }
+// #titulo_causa{
+//     // margin-left: 35%;
+//     font-size: x-large;
+//     color: black;
+// }
+#atributo{
+   
+    // white-space: nowrap;
+    // text-overflow: ellipsis;
+    // overflow: hidden;
+}
+.blog{
+//     // height: 300px;
+//    display: flex;
+//    flex-direction: column;
+//    text-align: center;
+//     background-color: lightsalmon;
+//     border: 2px solid black;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    height: 23px;
+ 
+//   width: 70%;
+//   justify-content: center;
+//   margin-left: 20%;
+//  img{
+//     margin-left: 20%;
+//     width: 50%;
+//     margin-top: 2%;
+//  }
+//  p{
+//     margin-top: 2%;
+    // width: 930px;
+// white-space: nowrap;
+// text-overflow: ellipsis;
+// overflow: hidden;
+// text-align: center;
+
+//   }
+}
+.block-29{
+    width: 300%;
+    overflow: hidden;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    position: relative;
+    display: block;
+ 
+    height: 400px;
+}
+.blog2{
+    height: 300px;
+    // height: 94%;
+//    display: flex;
+//    flex-direction: column;
+//    text-align: center;
+    // background-color: $colorTransicion;
+    border: 2px solid black;
+    overflow: visible;
+  width:100%;
+  
+}
+// tbody{
+//     background-color: #F0F0ED;
+// }
+
+
+.tiendaPrecio{
+    margin-top: 1%;
+width: 80px;
+}
+.tiendaCantidad{
+    width: 80px; 
+}
+.row{
+    margin-left: 6%;
+}
+.tabla_tienda{
+    // border: 2px solid black;
+    border-spacing: 30px;
+// margin-left: 15%;
+    display: flex;
+    // border: 2px solid black;
+    width: 60%;
+    color: black;
+    font-family: "Overpass", Arial, sans-serif;
+        tr{
+            // border: 1px solid black;
+             text-align: center;
+             
+        }
+        th{
+        
+            input{
+                // width: 50%;
+            }
+             img{
+                padding-top: 1%;
+                margin-left: 5%;
+                width: 80%;
+                height:150px;
+                border-radius: 50px;
+                margin-top: 2%;
+                 }
+                 .tituloProductoTienda{
+                    // margin-left: 50%;
+                    border-radius: 50px;
+                    text-align: center;
+                 }
+                 textarea{
+                    width: 150%;
+                 }
+            }
+ }
+ .invisble{
+    display: none;
+ }
+
+// #formularioCT{
+//     height: 180%;
+// }
+ #botonesAdminEventos{
+    display: flex;
+    justify-content: center;
+background-color:$color1;
+width: 53%;
+margin-left: 25%;
+margin-bottom: -3%;
+margin-top: 1%;
+font-family: "Overpass", Arial, sans-serif;
+    input{
+        padding: 5px;
+    }
+}
+#borrar{
+//     height: 90%;
+    font-family: "Overpass", Arial, sans-serif;
+//    overflow:scroll;
+
+}
+#Email{
+    width: 100%;
+    text-align: center;
+}
+#botonesAdminTienda{
+    font-size:small;
+    display: flex;
+    justify-content: center;
+    background-color:$color1;
+width: 79.8%;
+margin-left: 10.1%;
+margin-bottom: 2%;
+margin-top: -1%;
+border-left: 2px solid white;
+border-right: 2px solid white;
+font-family: "Overpass", Arial, sans-serif;
+    input{
+        padding: 3px;
+    }
+    a{
+        font-size: medium;
+    }
+}
+#categorias{
+    margin-top: 2%;
+    display: flex;
+    justify-content: center;  
+    border: 2px solid white;
+    background-color: $color1;
+    font-family: "Overpass", Arial, sans-serif;
+    width: 80%;
+  margin-left: 10%;
+
+  a{
+    padding: 10px;
+    color: white;
+    font-size:small;
+  }
+}
+#formModal{
+    font-size: xx-large;
+}
+.Añadir{
+    margin-top: 1%;
+    padding: 1%;
+    background-color: red;
+    color: white;
+    margin-left: -10%;
+    width: 100%;
+}
+// table{
+//    display: flex;
+//    justify-content: center; 
+//    input{
+//     text-align: center;
+//    }
+// }
+#carritoFORM{
+ margin-top: 1%;
+    text-align: center;
+    // height: 1000px;
+    width: 100%;
+    // margin-left:25% ;
+    overflow: auto;
+    font-size: xx-large;
+    *{
+        border: 1px solid black;
+    }
+    div{
+        background-color: $color3;
+        *{
+            background-color: white;
+         color: black;
+         margin-bottom: 1%;
+         margin-top: 1%;
+         border-radius: 50px;
+         padding: 1%;
+      
+        }
+        input{
+            width: 80%;
+      margin-left: 4%;  
+        }
+
+    }
+    .textoCarrito{
+        border: none;
+        border-bottom: 2px solid black;
+      width: 80%;
+      margin-left: 12%;  
+      margin-top: 2%;  
+      background-color: #c1c1c1;
+      opacity: 50%;
+    }
+    .tituloPCarrito{
+        border: none;
+        border-bottom: 2px solid black;
+        background-color: #c1c1c1;
+        opacity: 50%;
+    }
+    input{
+        text-align: center;
+    }
+
+    }
+    #CTOTAL{
+        // color: black;
+        // background-color: $color3;
+     
+      
+    }
+    #formularios{
+        display: flex; 
+        height: 800px;
+        font-family:"Overpass", Arial, sans-serif;
+        
+       
+     }
+     .itemcarrito{
+        background-color:$color3 ;
+      
+    }
+   
+//    .itemcarrito p{
+//     border: none;
+//     background-color: #7cd6ec;
+//    }
+//     #formulariosT{
+
+
+//         overflow: auto;
+   
+       
+//         }
+//         .tabla_tienda{
+//             font-size:xx-large;
+//             border-collapse: separate;
+//             border-spacing: 30px;
+//         }
+      
+        .tiendaForm{
+            // height: 80%;
+          
+            textarea{
+                white-space: pre-wrap;
+             width: 60%;
+             outline: none;
+             border:2px solid transparent;
+             }
+             }
+             .BCarrito{
+                padding: 1%;
+             }
+        #bCarrito1{
+            background-color: red;
+          padding: 1%;
+       
+        font-size:xx-large;
+         
+            }
+            #formurecuperarContrasenya{
+                height: 97%;
+                font-size: xx-large;
+                font-family:"Overpass", Arial, sans-serif;
+           input{
+            text-align: center;
+           }
+                p{
+                    color: black;
+                }
+                #BTN-BTNuevaContrasenya{
+                    background-color: red;
+                    color: white;
+                    padding: 1%;
+                }
+               }
+
+               #formuInsertar{
+                    margin: 10px;
+                    font-size:medium;
+                 
+                 
+               }
+               #formuEliminar{
+                margin: 10px;
+                font-size: medium;
+             
+             
+           }
+               #formuEditar{
+                margin: 10px;
+                font-size: medium;
+             
+             
+           }
+               #insertarPost{
+                border: 0;
+                border-radius: 25px;
+                box-shadow: 0 0 20px black;
+               }
+               #eliminarPost{
+                border: 0;
+                border-radius: 25px;
+                box-shadow: 0 0 20px black;
+               }
+//               .tituloblog{
+//                 font-size:50px;
+//                 color:white;
+//                 text-shadow: 1px  0px 0px black;
+//               }
+              #insertarProducto{
+                border: 0;
+                border-radius: 25px;
+                box-shadow: 0 0 20px black;
+                padding: 1%;
+              }
+              #eliminarProducto{
+                border: 0;
+                border-radius: 25px;
+                box-shadow: 0 0 20px black;
+                padding: 1%;
+              }
+              #editarPrecio{
+                border: 0;
+                border-radius: 25px;
+                box-shadow: 0 0 20px black;
+                padding: 1%;
+              }
+           
+             #Cancel{
+                margin: 1%;
+                border: 0;
+                border-radius: 25px;
+                box-shadow: 0 0 20px black;
+                padding: 0.5%;
+             }
+             #Aceptar{
+                margin: 1%;
+                border: 0;
+                border-radius: 25px;
+                box-shadow: 0 0 20px black;
+                padding: 0.5%;
+             }
+//              #btn-donaciones{
+//                 background-color: $color1;
+//                 border: none;
+//                 width: 60%;
+//                 margin-left: 18%;
+//              }
+.imagenesEve{
+    // width: 100%;
+    // height:450px;
+ padding-top: 2%;
+}
+#imagen{
+    width: 90%;
+}
+#cbox1{
+    margin-left: 25%;
+
+}
+@media (min-width:719px) and (max-width: 1023px) { 
+   
+    #botonesAdminEventos{
+        display: flex;
+        justify-content: center;
+    background-color:$color1;
+    width: 26%;
+    margin-left: 40%;
+    margin-bottom: -3%;
+    margin-top: 1%;
+ 
+        input{
+            padding: 5px;
+        }
+    }
+    #imagen{
+        width: 60%;
+    }
+    #imagenEvento2{
+        width: 250%;
+        height: 300px;
+    }
+    .blog2{
+        height: 300px;
+        // height: 94%;
+    //    display: flex;
+    //    flex-direction: column;
+    //    text-align: center;
+        // background-color: $colorTransicion;
+        border: 2px solid black;
+        overflow: visible;
+      width:300%;
+      
+    }
+    #ConfirmacionCarrito{
+        margin-left: 38%;
+        font-size:medium;
+        margin-top: 2%;
+    }
+    #categorias{
+        width: 60%;
+    
+        margin-left: 20%;
+        a{
+        font-size:medium;
+        }
+    }
+      
+    #botonesAdminTienda{
+        width: 60%;
+        margin-left: 20%;
+        
+        }
+
+        .tiendaForm{
+     
+            //     height: 100%;
+            //      }
+            // #formulariosT{
+                 .tabla_tienda{
+                    width: 50%;
+            //         height: 61%;
+            //         font-size: xx-large;
+            margin-left: 5%;
+          
+                    }
+            th{
+              
+                img{
+                   margin-left: -40%;
+                   width: 120px;
+                   height:120px;
+                    }
+                    .tituloProductoTienda{
+                    //    margin-left: 50%;
+                    
+                    }
+                   
+                 textarea{
+                    margin-left: -95%;
+                    width: 150%;
+                    white-space: pre-wrap;
+                 outline: none;
+                 border:2px solid transparent;
+                 }
+               }
+              
+            }
+       
+            #cbox1{
+                margin-left: 40%;
+           
+            }
+            #formurecuperarContrasenya{
+                height: 97%;
+               
+                padding-left: 29%;
+                padding-right: 29%;
+                p{
+                    color: black;
+                }
+                #BTN-BTNuevaContrasenya{
+                    background-color: red;
+                    color: white;
+                }
+               }
+}
+
+//820
+    @media (min-width:1024px) and (max-width: 2400px) { 
+        #botonesAdminEventos{
+            display: flex;
+            justify-content: center;
+        background-color:$color1;
+        width: 22%;
+        margin-left: 40%;
+        margin-bottom: -3%;
+        margin-top: 1%;
+            input{
+                padding: 5px;
+            }
+        }
+        #imagen{
+            width: 30%;
+        }
+        #formuRegistro{
+        padding-left: 28%;
+        padding-right: 28%;
+        }
+        #modal2{
+            max-width: 50ch;
+        display:block;
+        margin-left: 40%;
+         }
+        #imagenEvento2{
+            width: 343%;
+            height: 600px;
+        }
+        .blog2{
+            height: 300px;
+            // height: 94%;
+        //    display: flex;
+        //    flex-direction: column;
+        //    text-align: center;
+            // background-color: $colorTransicion;
+            border: 2px solid black;
+            overflow: visible;
+          width:400%;
+          
+        }
+        #ConfirmacionCarrito{
+            margin-left: 45%;
+            font-size:medium;
+            margin-top: 2%;
+        }
+      
+
+      .row{
+        width: 80%;
+        margin-left: 13%;
+      }
+        .tabla_tienda{
+            width: 20%;
+            }
+        #botonesAdminTienda{
+            
+        width: 40%;
+        margin-left: 30%;
+        }
+       
+       
+        #formuInsertar{
+            margin: 30px;
+            font-size:large;
+         
+         
+       }
+       #formuEliminar{
+        margin: 30px;
+        font-size: large;
+     
+     
+   }
+       #formuEditar{
+        margin: 30px;
+        font-size: large;
+     
+     
+   }
+      
+        #insertarProducto{
+            border: 0;
+            border-radius: 25px;
+            box-shadow: 0 0 20px black;
+            padding: 1%;
+          }
+          #eliminarProducto{
+            border: 0;
+                border-radius: 25px;
+                box-shadow: 0 0 20px black;
+                padding: 1%;
+          }
+          #editarPrecio{
+            border: 0;
+                border-radius: 25px;
+                box-shadow: 0 0 20px black;
+                padding: 1%;
+          }
+//        #donar{
+//          margin-top: 1%;
+//          border-radius: 50px;
+//          border: 2px solid white;
+//          padding: 1%;
+//          box-shadow: 0 0 20px black;
+//        }
+//         .tituloblog{
+//             font-size:50px;
+//             color:white;
+//             text-shadow: 1px  0px 0px black;
+//           }
+        #insertarPost{
+            border: 0;
+            border-radius: 25px;
+            box-shadow: 0 0 20px black;
+           }
+        
+           #eliminarPost{
+            border: 0;
+            border-radius: 25px;
+            box-shadow: 0 0 20px black;
+           }
+      
+        #cbox1{
+            margin-left: 45%;
+       
+        }
+       #formurecuperarContrasenya{
+        height: 97%;
+        font-size: xx-large;
+        padding-left: 28%;
+        padding-right: 28%;
+        p{
+            color: black;
+        }
+        #BTN-BTNuevaContrasenya{
+            background-color: red;
+            color: white;
+        }
+       }
+       
+       
+        .tiendaForm{
+       
+        //     height: 100%;
+        //      }
+        // #formulariosT{
+             .tabla_tienda{
+        //         height: 61%;
+        //         font-size: xx-large;
+        margin-left: 18%;
+      
+                }
+        th{
+          
+            img{
+               margin-left: 0%;
+               width: 150px;
+               height:150px;
+                }
+                .tituloProductoTienda{
+                //    margin-left: 50%;
+                
+                }
+               
+             textarea{
+                width: 200%;
+                white-space: pre-wrap;
+             outline: none;
+             border:2px solid transparent;
+             }
+           }
+          
+        }
+   
+            .imagenesEve{
+                // width: 100%;
+                // height:450px;
+             padding-top: 2%;
+            }
+//             // .imagenesEve{
+//             //    width: 55%;
+//             //    margin-left: 25%;
+//             // }
+//         #txtInfo{
+//             background-color: white;
+//             margin: 2%;
+//             font-family: 'Noto Serif' , serif;
+//         //   font-size:20px;
+//         font-size: xx-large;
+//           width: 70%;
+//           margin-left: 15%;
+        
+//         }
+//         #imgInfo{
+//             height: 580px;
+//             width: 900px;
+//             margin-top: 5%;
+//             margin-bottom: 5%;
+        
+//         }
+//         #socialMedia{
+//             width: 50px;
+//             height: 50px;
+//            margin-top: 1%;
+          
+//         }
+//         #imgCarruselInicio{
+//             // width:50px;
+//             // height: 500px;
+           
+//         }
+//         #imgCarruselDonaciones{
+//             // width:500px;
+//             //   height: 300px; 
+//         }
+//         #demo{
+//             // height: 55%;
+//             // width: 50%;
+//             // margin-left: 23%;
+            
+//         }
+//         #demo2{
+//             /* height: 70%; */
+//             // width: 80%;
+//             // margin-left: 13%;
+//             // height: 60%;
+//         }
+//         #donaciones {
+//             display: flex;
+//             flex-direction:row;
+//             background-color:$color1 ;
+//             border: #232323 2px solid;
+//             justify-content: center;
+//             width: 60%;
+//             margin-left: 18%;
+//             padding: 1%;
+//          } 
+         #modal{
+         margin-left: 35%;
+         margin-top: 1%;
+         }
+//          #D{
+//             height: 120%;
+//          }
+         #perfilForm{
+    
+            background-color: white;
+       
+            font-size:x-large;
+            height: 856px;
+           color: $color2;
+           border-radius: 2%;
+           input{
+            background-color: $color2;
+            color: white;
+           }
+        }
+       
+        .box img {
+            // width: 300px;
+            height: 140px;
+            margin-top: 5px;
+            border-radius: 150px;
+            -o-object-fit: cover;
+               object-fit: cover;
+          }
+        
+//           .menu a {
+//             color: white;
+//             /* font-family: Verdana, Geneva, Tahoma, sans-serif; */
+//             text-decoration: none;
+//             font-family: 'Barlow',bold;
+//            font-size: xx-large;
+         
+            
+//         }
+        
+        .itemcarrito{
+            background-color:$color3 ;
+        }
+//         .blog img{
+//     //    margin-left: 48%;
+
+//         }
+        #categorias{
+            margin-top: 2%;
+            display: flex;
+            justify-content: center;  
+            border: 2px solid white;
+            background-color: $color1;
+        color: white;
+            width: 40%;
+          margin-left: 30%;
+       
+          a{
+            font-size: large;
+          }
+        }
+        #carritoFORM{
+            text-align: center;
+            
+            width: 35%;
+            margin-left:35% ;
+            overflow: auto;
+            input{
+                width: 50%;
+          margin-left: 4%;  
+            }
+            }
+
+//             .blog{
+//                 // height: 350px;
+//                display: flex;
+//                flex-direction: column;
+//                text-align: center;
+//                 background-color: lightsalmon;
+//                 border: 2px solid black;
+//                 overflow: hidden;
+                
+//               width: 50%;
+//               justify-content: center;
+//               margin-left: 27%;
+//             font-size: xx-large;
+//             img{
+//                height: 400px;
+//                 width: 50%;
+//                 margin-left: 25%;
+//               }
+//               p{
+//                 width: 930px;
+//       white-space: nowrap;
+//       text-overflow: ellipsis;
+//       overflow: hidden;
+    
+//               }
+//             }
+//             .blog2{
+//                 // height: 1500px;
+//                display: flex;
+//                flex-direction: column;
+//                text-align: center;
+//                 background-color: $colorTransicion;
+//                 border: 2px solid black;
+//                 overflow: visible;
+//               width: 100%;
+//               font-size: xx-large;
+             
+//               img{
+//                 height: 20%;
+//                 width: 20%;
+//                 margin-left: 40%;
+//               }
+//             }
+    }
+

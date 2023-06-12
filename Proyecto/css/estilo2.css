@@ -1,0 +1,547 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* BARRA MENU */
+.menu{
+    background-color:rgb(201,93,183) ;
+
+    box-shadow: 2px 2px 5px rgba(8, 8, 8, 0.767); /*Sombreado*/
+  
+
+
+}
+
+.navbar-toggler{
+    margin-right: 25%;
+}
+.menu a {
+	color: black;
+    /* font-family: Verdana, Geneva, Tahoma, sans-serif; */
+    text-decoration: none;
+    font-family: 'Barlow',bold;
+    font-size:medium;
+ 
+    
+}
+ #imgTXT{
+    background-color: #F0F0ED;
+    text-align: center;
+  width: 100%;
+
+ /* height: 100%; */
+}
+
+#imgInfo{
+    height: 500px;
+    width: 500px;
+    margin-top: 5%;
+    margin-bottom: 5%;
+
+}
+#textoFooter{
+    text-align: center;
+}
+#txtInfo{
+    background-color: white;
+    margin: 2%;
+    font-family: 'Barlow', sans-serif;
+  font-size:11px;
+overflow: hidden;
+text-align:left;
+padding: 2%;
+
+}
+#D{
+    font-family: 'Barlow', sans-serif;
+}
+#formuRegistro{
+    background-color: white;
+    border: #232323;
+    border-radius: 1%;
+    /* width: 500px;
+    height: 550px; */
+    font-size:xx-large;
+   height:800px;
+   color:rgb(201,93,183);
+}
+#formuRegistro input{
+border: 2px solid black;
+
+}
+#insertarForm{
+    color: white;
+}
+#eliminarForm{
+    color: white;
+}
+
+#BTNregistro{
+    display: flex;
+    justify-content: center;
+}
+#BTN-BTNregistro{
+    width: 200px;
+    height: 70px;
+    background-color: rgb(125,20,107);
+    color: WHITE;
+}
+#BTN-BTNregistro2{
+    width: 200px;
+    height: 70px;
+    background-color: rgb(201,93,183);
+    color: WHITE;
+}
+.menu a:hover { /*Al pasar el raton por encima del menu cambia de color*/
+    color:lightsalmon;
+    transition: all .3s;
+}
+
+/* */ 
+
+.h1Inicio {
+	color: rgba(200, 119, 119, 1);
+}
+#body{
+    background-color:rgb(125,20,107) ;
+
+}
+#logo{
+    width: 50px;
+    height: 50px;
+}
+#carrito{
+    width: 50px;
+    height: 50px;
+}
+
+#imgCarruselInicio{
+    width:500px;
+    height: 800px;
+}
+#imgCarruselDonaciones{
+    width:300px;
+    /* height: 200px; */
+}
+#socialMedia{
+    width: 45px;
+    height: 45px;
+   margin-top: 5%;
+ 
+}
+.prueba{
+    display: flex;
+    justify-content: center;
+}
+.tablaP {
+	color:rgba(200, 119, 119, 1);
+	font-size: 20px;
+}
+
+.tablaP:hover { /*Al pasar el raton por encima del menu cambia de color*/
+    color: rgba(72, 32, 32, 1);
+    transition: all .3s;
+}
+
+
+/* FOOTER */
+.pie {
+	background-color: #232323;
+	color: white;
+	box-shadow: 2px 2px 5px rgba(8, 8, 8, 0.767); 	
+
+ 
+
+}
+#demo{
+    height: 100%;
+}
+#demo2{
+    height: 60%;
+}
+footer{
+    /* background-position: center bottom; */
+
+/* height: max-content; */
+
+}
+body{
+  /* position: relative; */
+  /* min-height: 100vh; */
+
+}
+span{
+    /* display:none ; */
+}
+
+.borde {
+    border: 2px solid rgba(58, 56, 56, 0.918);
+}
+
+#perfilForm{
+
+    background-color: white;
+    border: black 2px solid;
+    font-size:x-large;
+    height: 800px;
+    font-family: 'Barlow', sans-serif;
+    color: rgb(125,20,107);
+    border-radius: 2%;
+}
+#perfilForm input{
+    background-color: rgb(125,20,107);
+    color: white;
+}
+label, input {
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+  .box img {
+    width: 200px;
+    height: 200px;
+    margin-top: 5px;
+    border-radius: 150px;
+    -o-object-fit: cover;
+       object-fit: cover;
+  }
+
+ #donaciones {
+    display: flex;
+    flex-direction: column;
+    background-color:rgb(201,93,183) ;
+    border: #232323 2px solid;
+ } 
+
+ #donaciones >div{
+    background-color: white;
+    margin: 10px;
+    padding: 20px;
+    font-size: 30px;
+ 
+ }
+#precioDI{
+    width: 100%;
+}
+ #modal::backdrop{
+    background-color: rgba(0,0,0,.55);
+ }
+ #modal{
+    max-width: 50ch;
+
+ }
+ #formModal label{
+    border: 1px solid;
+    padding: 5px;
+    width: 100%;
+    text-align: center;
+    background-color: white;
+}
+#formModal{
+    background-color: #c1c1c1;
+  
+}
+#btn-cerrar-modal{
+margin-left: 35%;
+}
+#BTN-BTNContinuar{
+    background-color: red;
+    color: white;
+    margin-left: 35%;
+    font-size: xx-large;
+}
+#titulo_causa{
+    margin-left: 35%;
+    font-size: x-large;
+    color: white;
+}
+#divCausa{
+    /* height: 210px; */
+}
+#titleD{
+    margin-left: 35%;  
+    font-size: xx-large;
+}
+.blog{
+    height: 200px;
+   display: flex;
+   flex-direction: column;
+   text-align: center;
+    background-color: white;
+    border: 2px solid black;
+    overflow: hidden;
+  width: 60%;
+  justify-content: center;
+  margin-left: 20%;
+ 
+}
+
+.imagenesEve{
+    width: 80px;
+    height: 80px;
+    margin-left: 45%;
+}
+.blog2{
+    height: 800px;
+   display: flex;
+   flex-direction: column;
+   text-align: center;
+    background-color: aqua;
+    border: 2px solid black;
+    overflow: visible;
+  width: 100%;
+}
+
+.tabla_tienda{
+    
+
+
+   color: black;
+
+}
+tbody{
+    background-color: #F0F0ED;
+}
+.tabla_tienda tr{
+    border: 1px solid black;
+    text-align: center;
+
+}
+.tabla_tienda th img{
+margin-left: 80%;
+
+}
+.tabla_tienda th .tituloProductoTienda{
+    margin-left: 50%;
+    }
+.tabla_tienda   {
+display: flex;
+
+    }
+
+
+#botonesAdminEventos{
+    display: flex;
+    justify-content: center;
+}
+
+#borrar{
+    height: 760px;
+    font-family: 'Barlow', sans-serif;
+   overflow:scroll;
+
+}
+.tiendaForm{
+  
+}
+
+#botonesAdminTienda{
+    display: flex;
+    justify-content: center;
+}
+#categorias{
+    display: flex;
+    justify-content: center;  
+    border: 2px solid white;
+    background-color: lightsalmon;
+    font-family: 'Barlow', bold;
+    width: 80%;
+  margin-left: 12%;
+}
+#categorias a{
+    padding: 10px;
+    color: black;
+}
+.Añadir{
+    background-color: red;
+    color: white;
+}
+table{
+   display: flex;
+   justify-content: center; 
+}
+table input{
+    text-align: center;
+}
+
+#carritoFORM{
+text-align: center;
+
+width: 50%;
+margin-left:40% ;
+overflow: auto;
+}
+
+#carritoFORM *{
+ 
+    border: 1px solid black;
+
+    
+    }
+    #carritoForm div {
+      background-color: #F0F0ED;
+    }
+    #carritoForm div * {
+        background-color: white;
+      }
+    #CTOTAL{
+        color: black;
+        background-color: #F0F0ED;
+    }
+#carritoFORM input{
+    text-align: center;
+}
+#formularios{
+   display: flex; 
+   height: 800px;
+   font-family: 'Barlow', sans-serif;
+   
+  
+}
+.itemcarrito{
+    background-color:lightsalmon ;
+}
+form{
+
+}
+#formulariosT{
+
+
+overflow: auto;
+
+height: 800px;
+}
+#carritoFORM{
+    height: 800px;
+}
+#bCarrito1{
+background-color: red;
+}
+@media only screen and (min-width:920px) and (max-width: 1920px){
+    #txtInfo{
+        background-color: white;
+        margin: 2%;
+        font-family: 'Noto Serif' , serif;
+      font-size:20px;
+    
+    
+    }
+    #imgInfo{
+        height: 580px;
+        width: 1100px;
+        margin-top: 5%;
+        margin-bottom: 5%;
+    
+    }
+    #socialMedia{
+        width: 50px;
+        height: 50px;
+       margin-top: 1%;
+      
+    }
+    #imgCarruselInicio{
+        width:500px;
+        height: 800px;
+    }
+    #imgCarruselDonaciones{
+        width:300px;
+        /* height: 600px; */
+    }
+    #demo2{
+        /* height: 70%; */
+        width: 50%;
+        margin-left: 23%;
+        height: 70%;
+    }
+    #donaciones {
+        display: flex;
+        flex-direction:row;
+        background-color:rgb(201,93,183) ;
+        border: #232323 2px solid;
+        justify-content: center;
+     } 
+     #modal{
+     margin-left: 35%;
+     margin-top: 1%;
+     }
+     #perfilForm{
+
+        background-color: white;
+        border: black 2px solid;
+        font-size:xx-large;
+        height: 800px;
+       color: rgb(125,20,107);
+       border-radius: 2%;
+    }
+    #perfilForm input{
+        background-color: rgb(125,20,107);
+        color: white;
+    }
+    .box img {
+        width: 300px;
+        height: 250px;
+        margin-top: 5px;
+        border-radius: 150px;
+        -o-object-fit: cover;
+           object-fit: cover;
+      }
+    
+      .menu a {
+        color: black;
+        /* font-family: Verdana, Geneva, Tahoma, sans-serif; */
+        text-decoration: none;
+        font-family: 'Barlow',bold;
+        font-size:xx-large;
+     
+        
+    }
+    .itemcarrito{
+        background-color:lightsalmon ;
+    }
+    .blog img{
+   margin-left: 48%;
+    }
+    #categorias{
+        display: flex;
+        justify-content: center;  
+        border: 2px solid white;
+        background-color: lightsalmon;
+        
+        width: 38%;
+      margin-left: 35%;
+    }
+    #carritoFORM{
+        text-align: center;
+        
+        width: 20%;
+        margin-left:40% ;
+        overflow: auto;
+        }
+        .blog{
+            height: 150px;
+           display: flex;
+           flex-direction: column;
+           text-align: center;
+            background-color: white;
+            border: 2px solid black;
+            overflow: hidden;
+          width: 30%;
+          justify-content: center;
+          margin-left: 35%;
+        }
+       
+  
+  
+  }
+  @media only screen and (min-width:700px) and (max-width: 919px)  {
+    /* #imgInfo{
+        height: 550px;
+        width: 1100px;
+        margin-top: 5%;
+        margin-bottom: 5%;
+    
+    } */
+  }
+  @media only screen and (min-width: 401px) and (max-width: 500px) {
+
+  }

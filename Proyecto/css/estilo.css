@@ -1,0 +1,808 @@
+@charset "UTF-8";
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#mensajeDonar {
+  margin-top: 1%;
+  text-align: center;
+  color: red;
+}
+
+strong {
+  color: black;
+}
+
+#informacionTXT {
+  text-align: justify;
+}
+
+.form-control {
+  text-align: center;
+}
+
+#formuRegistro {
+  background-color: #F2F2F2;
+  border: #232323;
+  border-radius: 1%;
+  /* width: 500px;
+  height: 550px; */
+  font-size: x-large;
+  color: rgb(201, 93, 183);
+  font-family: "Overpass", Arial, sans-serif;
+  padding-left: 10%;
+  padding-right: 10%;
+}
+#formuRegistro input {
+  border: 0;
+  border-radius: 25px;
+  box-shadow: 0 0 20px black;
+}
+
+.inputnewsletter {
+  text-align: center;
+}
+
+#insertarForm {
+  font-family: "Overpass", Arial, sans-serif;
+}
+#insertarForm div p input {
+  border: 0;
+  border-radius: 25px;
+  box-shadow: 0 0 20px black;
+  text-align: center;
+}
+#insertarForm div p textarea {
+  border: 0;
+  border-radius: 10px;
+  box-shadow: 0 0 20px black;
+  text-align: center;
+}
+
+#datepicker2 {
+  border: 0;
+  border-radius: 25px;
+  box-shadow: 0 0 20px black;
+}
+
+#datepicker {
+  border: 0;
+  border-radius: 25px;
+  box-shadow: 0 0 20px black;
+}
+
+#eliminarForm div p input {
+  text-align: center;
+  border: 0;
+  border-radius: 25px;
+  box-shadow: 0 0 20px black;
+}
+#eliminarForm div p textarea {
+  text-align: center;
+  border: 0;
+  border-radius: 25px;
+  box-shadow: 0 0 20px black;
+}
+
+#formSuscribirse p input {
+  border: 0;
+  border-radius: 25px;
+  box-shadow: 0 0 20px black;
+}
+
+#BTNregistro {
+  display: flex;
+  justify-content: center;
+}
+
+#BTN-BTNregistro {
+  font-family: "Overpass", Arial, sans-serif;
+  width: 200px;
+  height: 70px;
+  background-color: rgb(125, 20, 107);
+  color: WHITE;
+  padding: 1%;
+  border: 0;
+  border-radius: 25px;
+  box-shadow: 0 0 20px black;
+}
+
+#BTN-BTNregistro2 {
+  font-family: "Overpass", Arial, sans-serif;
+  width: 200px;
+  height: 70px;
+  background-color: rgb(201, 93, 183);
+  color: WHITE;
+  padding: 1%;
+  border: 0;
+  border-radius: 25px;
+  box-shadow: 0 0 20px black;
+}
+
+#logo {
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+}
+
+#cerrarSesion {
+  padding: 0.5%;
+  border: 0;
+  border-radius: 25px;
+  box-shadow: 0 0 20px black;
+}
+
+li {
+  list-style: none;
+}
+
+#perfilForm {
+  margin-top: 5%;
+  background-color: white;
+  font-size: x-large;
+  height: 856px;
+  font-family: "Overpass", Arial, sans-serif;
+  color: rgb(125, 20, 107);
+  border-radius: 2%;
+}
+#perfilForm input {
+  background-color: rgb(125, 20, 107);
+  color: white;
+}
+#perfilForm .box img {
+  height: 120px;
+  margin-top: 5px;
+  border-radius: 150px;
+  -o-object-fit: cover;
+  object-fit: cover;
+}
+
+#ConfirmacionCarrito {
+  margin-left: 31%;
+  font-size: medium;
+  margin-top: 2%;
+}
+
+label, input {
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+.box img {
+  margin-top: 5px;
+  border-radius: 150px;
+  -o-object-fit: cover;
+  object-fit: cover;
+}
+
+#modal::backdrop {
+  background-color: rgba(0, 0, 0, 0.55);
+}
+
+#modal {
+  max-width: 50ch;
+  display: none;
+}
+
+#modal2 {
+  max-width: 50ch;
+  display: block;
+  margin-left: 0%;
+}
+
+#formModal label {
+  border: 1px solid;
+  padding: 5px;
+  width: 100%;
+  text-align: center;
+  background-color: white;
+}
+
+#formModal {
+  background-color: #c1c1c1;
+}
+
+#btnPSW {
+  padding-left: 5%;
+}
+
+#ojo {
+  width: 50px;
+  height: 50px;
+}
+
+#ojo2 {
+  width: 50px;
+  height: 50px;
+}
+
+#btn-cerrar-modal {
+  margin-left: 35%;
+}
+
+#suscribirse {
+  margin-top: 5%;
+  height: 100%;
+  font-size: x-large;
+  font-family: "Overpass", Arial, sans-serif;
+}
+#suscribirse p {
+  color: black;
+  text-align: center;
+}
+#suscribirse h1 {
+  text-align: center;
+  margin-left: 0%;
+}
+#suscribirse form {
+  background-color: white;
+}
+#suscribirse form label {
+  margin-right: 1%;
+}
+#desuscribirseTXT {
+  font-size: x-large;
+  font-family: "Overpass", Arial, sans-serif;
+}
+
+#btn-desuscribirse {
+  background-color: red;
+  color: white;
+  margin-left: 5%;
+  font-size: x-large;
+  margin-bottom: 1%;
+  padding: 1%;
+}
+
+.blog {
+  text-overflow: ellipsis;
+  overflow: hidden;
+  height: 23px;
+}
+
+.block-29 {
+  width: 300%;
+  overflow: hidden;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  position: relative;
+  display: block;
+  height: 400px;
+}
+
+.blog2 {
+  height: 300px;
+  border: 2px solid black;
+  overflow: visible;
+  width: 100%;
+}
+
+.tiendaPrecio {
+  margin-top: 1%;
+  width: 80px;
+}
+
+.tiendaCantidad {
+  width: 80px;
+}
+
+.row {
+  margin-left: 6%;
+}
+
+.tabla_tienda {
+  border-spacing: 30px;
+  display: flex;
+  width: 60%;
+  color: black;
+  font-family: "Overpass", Arial, sans-serif;
+}
+.tabla_tienda tr {
+  text-align: center;
+}
+.tabla_tienda th img {
+  padding-top: 1%;
+  margin-left: 5%;
+  width: 80%;
+  height: 150px;
+  border-radius: 50px;
+  margin-top: 2%;
+}
+.tabla_tienda th .tituloProductoTienda {
+  border-radius: 50px;
+  text-align: center;
+}
+.tabla_tienda th textarea {
+  width: 150%;
+}
+
+.invisble {
+  display: none;
+}
+
+#botonesAdminEventos {
+  display: flex;
+  justify-content: center;
+  background-color: rgb(201, 93, 183);
+  width: 53%;
+  margin-left: 25%;
+  margin-bottom: -3%;
+  margin-top: 1%;
+  font-family: "Overpass", Arial, sans-serif;
+}
+#botonesAdminEventos input {
+  padding: 5px;
+}
+
+#borrar {
+  font-family: "Overpass", Arial, sans-serif;
+}
+
+#Email {
+  width: 100%;
+  text-align: center;
+}
+
+#botonesAdminTienda {
+  font-size: small;
+  display: flex;
+  justify-content: center;
+  background-color: rgb(201, 93, 183);
+  width: 79.8%;
+  margin-left: 10.1%;
+  margin-bottom: 2%;
+  margin-top: -1%;
+  border-left: 2px solid white;
+  border-right: 2px solid white;
+  font-family: "Overpass", Arial, sans-serif;
+}
+#botonesAdminTienda input {
+  padding: 3px;
+}
+#botonesAdminTienda a {
+  font-size: medium;
+}
+
+#categorias {
+  margin-top: 2%;
+  display: flex;
+  justify-content: center;
+  border: 2px solid white;
+  background-color: rgb(201, 93, 183);
+  font-family: "Overpass", Arial, sans-serif;
+  width: 80%;
+  margin-left: 10%;
+}
+#categorias a {
+  padding: 10px;
+  color: white;
+  font-size: small;
+}
+
+#formModal {
+  font-size: xx-large;
+}
+
+.Añadir {
+  margin-top: 1%;
+  padding: 1%;
+  background-color: red;
+  color: white;
+  margin-left: -10%;
+  width: 100%;
+}
+
+#carritoFORM {
+  margin-top: 1%;
+  text-align: center;
+  width: 100%;
+  overflow: auto;
+  font-size: xx-large;
+}
+#carritoFORM * {
+  border: 1px solid black;
+}
+#carritoFORM div {
+  background-color: #F7F7F7;
+}
+#carritoFORM div * {
+  background-color: white;
+  color: black;
+  margin-bottom: 1%;
+  margin-top: 1%;
+  border-radius: 50px;
+  padding: 1%;
+}
+#carritoFORM div input {
+  width: 80%;
+  margin-left: 4%;
+}
+#carritoFORM .textoCarrito {
+  border: none;
+  border-bottom: 2px solid black;
+  width: 80%;
+  margin-left: 12%;
+  margin-top: 2%;
+  background-color: #c1c1c1;
+  opacity: 50%;
+}
+#carritoFORM .tituloPCarrito {
+  border: none;
+  border-bottom: 2px solid black;
+  background-color: #c1c1c1;
+  opacity: 50%;
+}
+#carritoFORM input {
+  text-align: center;
+}
+
+#formularios {
+  display: flex;
+  height: 800px;
+  font-family: "Overpass", Arial, sans-serif;
+}
+
+.itemcarrito {
+  background-color: #F7F7F7;
+}
+
+.tiendaForm textarea {
+  white-space: pre-wrap;
+  width: 60%;
+  outline: none;
+  border: 2px solid transparent;
+}
+
+.BCarrito {
+  padding: 1%;
+}
+
+#bCarrito1 {
+  background-color: red;
+  padding: 1%;
+  font-size: xx-large;
+}
+
+#formurecuperarContrasenya {
+  height: 97%;
+  font-size: xx-large;
+  font-family: "Overpass", Arial, sans-serif;
+}
+#formurecuperarContrasenya input {
+  text-align: center;
+}
+#formurecuperarContrasenya p {
+  color: black;
+}
+#formurecuperarContrasenya #BTN-BTNuevaContrasenya {
+  background-color: red;
+  color: white;
+  padding: 1%;
+}
+
+#formuInsertar {
+  margin: 10px;
+  font-size: medium;
+}
+
+#formuEliminar {
+  margin: 10px;
+  font-size: medium;
+}
+
+#formuEditar {
+  margin: 10px;
+  font-size: medium;
+}
+
+#insertarPost {
+  border: 0;
+  border-radius: 25px;
+  box-shadow: 0 0 20px black;
+}
+
+#eliminarPost {
+  border: 0;
+  border-radius: 25px;
+  box-shadow: 0 0 20px black;
+}
+
+#insertarProducto {
+  border: 0;
+  border-radius: 25px;
+  box-shadow: 0 0 20px black;
+  padding: 1%;
+}
+
+#eliminarProducto {
+  border: 0;
+  border-radius: 25px;
+  box-shadow: 0 0 20px black;
+  padding: 1%;
+}
+
+#editarPrecio {
+  border: 0;
+  border-radius: 25px;
+  box-shadow: 0 0 20px black;
+  padding: 1%;
+}
+
+#Cancel {
+  margin: 1%;
+  border: 0;
+  border-radius: 25px;
+  box-shadow: 0 0 20px black;
+  padding: 0.5%;
+}
+
+#Aceptar {
+  margin: 1%;
+  border: 0;
+  border-radius: 25px;
+  box-shadow: 0 0 20px black;
+  padding: 0.5%;
+}
+
+.imagenesEve {
+  padding-top: 2%;
+}
+
+#imagen {
+  width: 90%;
+}
+
+#cbox1 {
+  margin-left: 25%;
+}
+
+@media (min-width: 719px) and (max-width: 1023px) {
+  #botonesAdminEventos {
+    display: flex;
+    justify-content: center;
+    background-color: rgb(201, 93, 183);
+    width: 26%;
+    margin-left: 40%;
+    margin-bottom: -3%;
+    margin-top: 1%;
+  }
+  #botonesAdminEventos input {
+    padding: 5px;
+  }
+  #imagen {
+    width: 60%;
+  }
+  #imagenEvento2 {
+    width: 250%;
+    height: 300px;
+  }
+  .blog2 {
+    height: 300px;
+    border: 2px solid black;
+    overflow: visible;
+    width: 300%;
+  }
+  #ConfirmacionCarrito {
+    margin-left: 38%;
+    font-size: medium;
+    margin-top: 2%;
+  }
+  #categorias {
+    width: 60%;
+    margin-left: 20%;
+  }
+  #categorias a {
+    font-size: medium;
+  }
+  #botonesAdminTienda {
+    width: 60%;
+    margin-left: 20%;
+  }
+  .tiendaForm .tabla_tienda {
+    width: 50%;
+    margin-left: 5%;
+  }
+  .tiendaForm th img {
+    margin-left: -40%;
+    width: 120px;
+    height: 120px;
+  }
+  .tiendaForm th textarea {
+    margin-left: -95%;
+    width: 150%;
+    white-space: pre-wrap;
+    outline: none;
+    border: 2px solid transparent;
+  }
+  #cbox1 {
+    margin-left: 40%;
+  }
+  #formurecuperarContrasenya {
+    height: 97%;
+    padding-left: 29%;
+    padding-right: 29%;
+  }
+  #formurecuperarContrasenya p {
+    color: black;
+  }
+  #formurecuperarContrasenya #BTN-BTNuevaContrasenya {
+    background-color: red;
+    color: white;
+  }
+}
+@media (min-width: 1024px) and (max-width: 2400px) {
+  #botonesAdminEventos {
+    display: flex;
+    justify-content: center;
+    background-color: rgb(201, 93, 183);
+    width: 22%;
+    margin-left: 40%;
+    margin-bottom: -3%;
+    margin-top: 1%;
+  }
+  #botonesAdminEventos input {
+    padding: 5px;
+  }
+  #imagen {
+    width: 30%;
+  }
+  #formuRegistro {
+    padding-left: 28%;
+    padding-right: 28%;
+  }
+  #modal2 {
+    max-width: 50ch;
+    display: block;
+    margin-left: 40%;
+  }
+  #imagenEvento2 {
+    width: 343%;
+    height: 600px;
+  }
+  .blog2 {
+    height: 300px;
+    border: 2px solid black;
+    overflow: visible;
+    width: 400%;
+  }
+  #ConfirmacionCarrito {
+    margin-left: 45%;
+    font-size: medium;
+    margin-top: 2%;
+  }
+  .row {
+    width: 80%;
+    margin-left: 13%;
+  }
+  .tabla_tienda {
+    width: 20%;
+  }
+  #botonesAdminTienda {
+    width: 40%;
+    margin-left: 30%;
+  }
+  #formuInsertar {
+    margin: 30px;
+    font-size: large;
+  }
+  #formuEliminar {
+    margin: 30px;
+    font-size: large;
+  }
+  #formuEditar {
+    margin: 30px;
+    font-size: large;
+  }
+  #insertarProducto {
+    border: 0;
+    border-radius: 25px;
+    box-shadow: 0 0 20px black;
+    padding: 1%;
+  }
+  #eliminarProducto {
+    border: 0;
+    border-radius: 25px;
+    box-shadow: 0 0 20px black;
+    padding: 1%;
+  }
+  #editarPrecio {
+    border: 0;
+    border-radius: 25px;
+    box-shadow: 0 0 20px black;
+    padding: 1%;
+  }
+  #insertarPost {
+    border: 0;
+    border-radius: 25px;
+    box-shadow: 0 0 20px black;
+  }
+  #eliminarPost {
+    border: 0;
+    border-radius: 25px;
+    box-shadow: 0 0 20px black;
+  }
+  #cbox1 {
+    margin-left: 45%;
+  }
+  #formurecuperarContrasenya {
+    height: 97%;
+    font-size: xx-large;
+    padding-left: 28%;
+    padding-right: 28%;
+  }
+  #formurecuperarContrasenya p {
+    color: black;
+  }
+  #formurecuperarContrasenya #BTN-BTNuevaContrasenya {
+    background-color: red;
+    color: white;
+  }
+  .tiendaForm .tabla_tienda {
+    margin-left: 18%;
+  }
+  .tiendaForm th img {
+    margin-left: 0%;
+    width: 150px;
+    height: 150px;
+  }
+  .tiendaForm th textarea {
+    width: 200%;
+    white-space: pre-wrap;
+    outline: none;
+    border: 2px solid transparent;
+  }
+  .imagenesEve {
+    padding-top: 2%;
+  }
+  #modal {
+    margin-left: 35%;
+    margin-top: 1%;
+  }
+  #perfilForm {
+    background-color: white;
+    font-size: x-large;
+    height: 856px;
+    color: rgb(125, 20, 107);
+    border-radius: 2%;
+  }
+  #perfilForm input {
+    background-color: rgb(125, 20, 107);
+    color: white;
+  }
+  .box img {
+    height: 140px;
+    margin-top: 5px;
+    border-radius: 150px;
+    -o-object-fit: cover;
+    object-fit: cover;
+  }
+  .itemcarrito {
+    background-color: #F7F7F7;
+  }
+  #categorias {
+    margin-top: 2%;
+    display: flex;
+    justify-content: center;
+    border: 2px solid white;
+    background-color: rgb(201, 93, 183);
+    color: white;
+    width: 40%;
+    margin-left: 30%;
+  }
+  #categorias a {
+    font-size: large;
+  }
+  #carritoFORM {
+    text-align: center;
+    width: 35%;
+    margin-left: 35%;
+    overflow: auto;
+  }
+  #carritoFORM input {
+    width: 50%;
+    margin-left: 4%;
+  }
+}/*# sourceMappingURL=estilo.css.map */
