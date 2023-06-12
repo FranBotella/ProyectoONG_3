@@ -1,0 +1,6 @@
+SQLSTATE[HY000]: General error: 1813 Tablespace for table '`bdtfgusuarios_php`.`usuarios`' exists. Please DISCARD the tablespace before IMPORT## Fichero: C:\xampp\htdocs\PHP\ProyectoFinal2023\ProyectoFinal\PHP\modelo\crearBD.php## Línea: 8##Código: HY000##Instante: 0.37449400 1680711636
+SQLSTATE[42S02]: Base table or view not found: 1146 Table 'bdtfgusuarios_php.productos' doesn't exist## Fichero: C:\xampp\htdocs\PHP\ProyectoFinal2023\ProyectoFinal\PHP\modelo\crearBD.php## Línea: 8##Código: 42S02##Instante: 0.07370000 1681653480
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'REFERENCES `productos`(`id`);
+ALTER TABLE `carrito`
+  ADD FOREIGN KEY `idUs...' at line 2## Fichero: C:\xampp\htdocs\PHP\ProyectoFinal2023\ProyectoFinal\PHP\modelo\crearBD.php## Línea: 8##Código: 42000##Instante: 0.17133900 1681831835
+SQLSTATE[HY000]: General error: 1005 Can't create table `bdtfgusuarios_php`.`carrito` (errno: 150 "Foreign key constraint is incorrectly formed")## Fichero: C:\xampp\htdocs\PHP\ProyectoFinal2023\ProyectoFinal\PHP\modelo\crearBD.php## Línea: 8##Código: HY000##Instante: 0.93939300 1681831984
